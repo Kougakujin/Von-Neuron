@@ -1,0 +1,16 @@
+QUESTIONS:
+
+1) Optimal vector selection/allocation. Some binary search?
+2) Optimal binding strategy. Perhaps one situation where randomness is necessary? Or is it the case that a precise sequence is better? Or maybe the best strategy is 'white noise' when selecting the binding strategy...
+3) Max. number of bindings? - Probably determined by the power of autoassociation and being able to reconstruct a vector out of 1/k samples reliably. k will likely be the maximum worst-case binding power.
+3a) Max. number of reliably encodable/decodable vectors given k bindings limit? - Possibly equal to number of unique combinations of 1/k elements that can coexist?
+4) What to send to cortex, to memory holding rules and evaluations specifically. This can be the declarative memory too, but not necessarily.
+5) Questions about structure (declarative items) and meta-structures.
+6) Learning rule inference (--solve at symbolic level--).
+7) Hierarchical rule-memory structure.
+8) Idea of 'partial compromise': compromising on something fundamental like SP size for very small and clearly defined parts of the system.
+9) Random selection as addition and expected overlap with a differently generated key. - Limits it imposes on reliability/assurance and no. of sustainable bindings.
+
+
+Code optimisations:
+a) Introduce default options for function arguments, e.g. resolution in distance function.

@@ -1,0 +1,20 @@
+Pseudocode for counting:
+------------------------
+
+Default action: Vision to attention.
+
+#Arranged by layers of hierarchy depth.
+Task: Ct - count to some limit.
+	LDM1 - Load count limit. (No concern yet where this comes from)
+	LDM2 - Load count step.
+	LDM3 - Load vecor for 'TRUE' so that there is a standard of comparison.
+	
+	?? - Bind operands & operators.
+	QMem - Query memory on whether attention > limit
+	Cmp - Mem return and M3.
+	If M3 is TRUE:
+		LDAtt - Load '1' into attention
+	Else:
+		?? - Bind operands and 'NEXT' operator.
+		QMem - Query memory
+		LDAtt - Load memory return into attention.
